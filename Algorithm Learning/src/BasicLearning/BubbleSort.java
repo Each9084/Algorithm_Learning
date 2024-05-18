@@ -1,22 +1,22 @@
 package BasicLearning;
 
+import java.util.Arrays;
+
+import static Utils.printResults.compareResultAndInit;
+import static Utils.printResults.printResult;
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] initArr = {4, 2, 9, 1, 3};
-        int [] result = bubbleSort(initArr);
-        
-        System.out.print("[");
-        for (int i = 0; i < result.length; i++) {
-            if (i< result.length-1) {
-                System.out.print(result[i]+",");
-            }else {
-                System.out.print(result[i]);
-            }
+        int[] copyArr = Arrays.copyOf(initArr, initArr.length);
+        int [] resultArr = bubbleSort(initArr);
 
+        //printResult(result);
 
-        }
-        System.out.print("]");
+        compareResultAndInit(copyArr,resultArr);
     }
+
+
 
     public static int[] bubbleSort(int [] arr){
         int temp = 0;
