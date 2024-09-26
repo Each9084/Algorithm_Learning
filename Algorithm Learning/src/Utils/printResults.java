@@ -1,6 +1,9 @@
 package Utils;
 
 public class printResults {
+
+    private printResults(){};
+
     public static void printResult(int[] result) {
         System.out.print("[");
         for (int i = 0; i < result.length; i++) {
