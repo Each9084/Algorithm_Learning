@@ -1,4 +1,4 @@
-package JavaBase.oopExample.CollectionAndFrame;
+package JavaBase.CollectionAndFrame;
 
 import java.util.HashSet;
 
@@ -23,6 +23,16 @@ public class HashSetExample {
 
 
         System.out.println("Modified HashSet: " + hashSet);
+
+        System.out.println("======================");
+        HashSet hashSet1 = new HashSet<>();
+        hashSet1.add("1");
+        hashSet1.add("2");
+        hashSet1.add("3");
+        hashSet1.add("4");
+
+        System.out.println(hashSet1.size());
+
 
     }
 }

@@ -1,8 +1,6 @@
-package JavaBase.oopExample.CollectionAndFrame;
+package JavaBase.CollectionAndFrame;
 
 import Utils.ListNode;
-
-import java.util.List;
 
 public class ListNodeExample {
 

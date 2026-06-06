@@ -1,10 +1,9 @@
-package JavaBase.oopExample.CollectionAndFrame;
+package JavaBase.CollectionAndFrame;
 
 import Utils.ListNode;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
 
 public class LinkedListExample {
     public static void main(String[] args) {

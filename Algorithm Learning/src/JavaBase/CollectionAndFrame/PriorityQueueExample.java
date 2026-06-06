@@ -1,4 +1,4 @@
-package JavaBase.oopExample.CollectionAndFrame;
+package JavaBase.CollectionAndFrame;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
